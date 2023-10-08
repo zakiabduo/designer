@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:oswald-extralight, oswald, sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Quicksand', sans-serif;
+}
+  
+  
+  body {/* Fallback */
+    text-align: center;
+}
+.hero{
+    background-image: url(images/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    transition: 1.5s;
+
+    animation-duration: 60s ;
+    animation-timing-function:cubic-bezier(1, 0, 0, 1);
+    animation-iteration-count:infinite ;
+    animation-play-state:running ;
+    animation-name: animation;
+
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    padding: 2em;
+
+}
+#h_logo{
+    display: flex;
+}
+.logo{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+#h_logo p{
+    padding-top: 0.4em;
+    padding-left: 0.7em;
+    color: gray;
+}
+.nav a{
+    display: inline;
+    margin:7px ;
+    color: gray;
+    text-decoration: none;
+    ;cursor: pointer;
+}
+.nav a:hover{
+    color: lightskyblue;
+}
+.m_box{
+    background-color: #ffffffbf;
+    position: absolute;
+    top: 20%;
+    right: 30%;
+    left: 30%;
+    height: 20%;
+    text-align: center;
+}
+.m_box h2{
+    padding-top: 1%;
+    padding-bottom: 5%;
+
+}
+.m_box input{
+    padding: 3% 13%;
+    border: 1px solid black;
+    font-size: 15px;
+}
+.m_box button{
+    padding: 3% 5%;
+    font-size: 15px;
+    border: 1px solid black;
+    margin-left: 10px;
+    background-color: black;
+    color: #fff;
+}
+
+/* 
+second section */
+
+#photography{
+    height: 100%;
+    width: auto;
+    padding-left: 10em ;
+    padding-right: 10em;
+}
+#photography .sec-two-con{
+    justify-content: center;
+    padding-top: 7%;
+    font-weight: bold;
+}
+.photo-con{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.p-card img{
+    height: 400px;
+    width: 300px;
+    margin: 5px;
+    padding-top: 15%;
+    
+    background-position: center;
+}
+.p-card h4{
+    font-weight: 200;
+    color: gray;
+}
+
+/* section three instagram feed */
+
+
+#insta-feed{
+    height: 100%;
+    width: auto;
+}
+.sec-three-con{
+    justify-content: center;
+    padding-top: 7%;
+    font-weight: bold;
+}
+#insta-feed a{
+    font-size: small;
+    color: gray;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes animation {
+    0%{background-image: url(images/bg2.jpg);}
+    20%{background-image: url(images/bg3.jpg);}
+    40%{background-image: url(images/bg4.jpg);}
+    60%{background-image: url(images/bg5.jpg);}
+    80%{background-image: url(images/bg6.jpg);}
+    100%{background-image: url(images/bg7.jpg);}
+  }
+  
